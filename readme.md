@@ -16,7 +16,7 @@ Humans tend to mine objects by learning from a group of images or a several fram
 
 ## Result
 
-- **Co-Segmentation (CoS) on [PASCAL-VOC](http://host.robots.ox.ac.uk/pascal/VOC/), [iCoseg](https://ieeexplore.ieee.org/document/5540080?arnumber=5540080), [Internet](https://people.csail.mit.edu/mrub/papers/ObjectDiscovery-cvpr13.pdf) and [MSRC](https://link.springer.com/chapter/10.1007/11744023_1)**
+- **Co-Segmentation (CoS) on [PASCAL-VOC](http://host.robots.ox.ac.uk/pascal/VOC/), [iCoseg](http://chenlab.ece.cornell.edu/projects/touch-coseg/), [Internet](http://people.csail.mit.edu/mrub/ObjectDiscovery/) and [MSRC](https://link.springer.com/chapter/10.1007/11744023_1)**
 
 <img src='source/result1.png'>
 
@@ -27,6 +27,8 @@ Humans tend to mine objects by learning from a group of images or a several fram
 - **Video Salient Object Detection (VSOD) on [DAVIS16 val set](https://davischallenge.org/davis2016/code.html)** 
 
 <img src="source/drift-straight.gif" width="45%"/> <img src="source/bmx-trees.gif" width="45%"/>
+
+ **[Optional] Single Object Tracking (SOT) on [GOT-10k val set](http://got-10k.aitestunion.com/downloads) **
 
 
 

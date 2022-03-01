@@ -2,7 +2,7 @@
 
 --------------------------------------------------------------------------------
 
-## A Unified Transformer Framework for Group-based Segmentation: Co-Segmentation, Co-Saliency Detection and Video Salient Object Detection
+# A Unified Transformer Framework for Group-based Segmentation: Co-Segmentation, Co-Saliency Detection and Video Salient Object Detection
 
 **[[arxiv](https://scholar.google.com/citations?user=O00rbxoAAAAJ&hl=zh-CN)]** **[[supp](https://scholar.google.com/citations?user=O00rbxoAAAAJ&hl=zh-CN)]**
 

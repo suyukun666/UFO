@@ -24,7 +24,7 @@ Humans tend to mine objects by learning from a group of images or a several fram
 
 <img src='source/result2.png'>
 
-- **Video Salient Object Detection (VSOD) on [DAVIS16 val set](https://davischallenge.org/davis2016/code.html)** 
+- **Video Salient Object Detection (VSOD) on [DAVIS16 val set](https://davischallenge.org/davis2016/code.html)  [[Pre-computed Results](https://drive.google.com/drive/folders/1iv6Rrdn3r2S5g5BSdViXT-vTX1pJUlBq?usp=sharing)]** 
 
 <img src="source/drift-straight.gif" width="45%"/> <img src="source/bmx-trees.gif" width="45%"/>
 

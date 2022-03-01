@@ -28,7 +28,7 @@ Humans tend to mine objects by learning from a group of images or a several fram
 
 <img src="source/drift-straight.gif" width="45%"/> <img src="source/bmx-trees.gif" width="45%"/>
 
- **[Optional] Single Object Tracking (SOT) on [GOT-10k val set](http://got-10k.aitestunion.com/downloads) **
+- **[Optional] Single Object Tracking (SOT) on [GOT-10k val set](http://got-10k.aitestunion.com/downloads)** 
 
 
 

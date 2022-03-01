@@ -20,7 +20,7 @@ Humans tend to mine objects by learning from a group of images or a several fram
 
 <img src='source/result1.png'>
 
-- **Co-Saliency Detection(CoSD)**
+- **Co-Saliency Detection(CoSD) on [CoCA](http://zhaozhang.net/coca.html)，[CoSOD3k](http://dpfan.net/CoSOD3K/) and [CoSal2015](https://ieeexplore.ieee.org/abstract/document/7298918)** 
 
 <img src='source/result2.png'>
 

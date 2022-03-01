@@ -10,7 +10,7 @@ Humans tend to mine objects by learning from a group of images or a several fram
 
 <img src='source/framework.png'>
 
-# Demo
+# Result & Demo
 
 <img src='source/result.png'>
 

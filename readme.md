@@ -16,13 +16,20 @@ Humans tend to mine objects by learning from a group of images or a several fram
 
 ## Result
 
-### co-segmentation 
+- **Co-Segmentation (CoS)**
 
 <img src='source/result1.png'>
 
-### co-saliency 
+- **Co-Saliency Detection(CoSD)**
 
 <img src='source/result2.png'>
+
+- **Video Salient Object Detection (VSOD)**
+
+<img src="source/drift-straight.gif" width="45%"/> <img src="source/bmx-trees.gif" width="45%"/>
+
+
+
 
 ## Usage
 

@@ -42,5 +42,5 @@ https://user-images.githubusercontent.com/50760123/156528285-59b0a056-fb07-4c1e-
 
 ## Matching
 
-<img src="source/matching_camel.jpg" /><img src="source/matching_fish.jpg" />
+<img src="source/matching_camel.jpg" width="45%"/><img src="source/matching_fish.jpg" width="45%"/>
 

@@ -37,5 +37,5 @@ Humans tend to mine objects by learning from a group of images or a several fram
 --TODO--
 
 ## Demo
-<video src="source/kobe_concat1.mp4" controls="controls" >您的浏览器不支持播放该视频！</video>
+https://github.com/suyukun666/UFO/blob/main/source/kobe_concat1.mp4
 

@@ -4,6 +4,8 @@
 
 # A Unified Transformer Framework for Group-based Segmentation: Co-Segmentation, Co-Saliency Detection and Video Salient Object Detection
 
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/a-unified-transformer-framework-for-group/co-salient-object-detection-on-cosal2015)](https://paperswithcode.com/sota/co-salient-object-detection-on-cosal2015?p=a-unified-transformer-framework-for-group)[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/a-unified-transformer-framework-for-group/co-salient-object-detection-on-cosod3k)](https://paperswithcode.com/sota/co-salient-object-detection-on-cosod3k?p=a-unified-transformer-framework-for-group)[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/a-unified-transformer-framework-for-group/co-salient-object-detection-on-coca)](https://paperswithcode.com/sota/co-salient-object-detection-on-coca?p=a-unified-transformer-framework-for-group)
+
 **[[arxiv](https://arxiv.org/abs/2203.04708v1)]** 
 
 UFO is a simple and Unified framework for addressing Co-Object Segmentation tasks: Co-Segmentation, Co-Saliency Detection and Video Salient Object Detection 

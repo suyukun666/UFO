@@ -21,14 +21,14 @@ UFO is a simple and Unified framework for addressing Co-Object Segmentation task
 ### Requirement
 
 ```python
-torch >=1.7.0
-torchvision>=0.7.0
+torch >= 1.7.0
+torchvision >= 0.7.0
 python3
 ```
 
 ### Training
 
-Training on images
+Training on group-based images. We use [COCO2017 train set](https://cocodataset.org/#home) with the provided [group split dict.npy](https://drive.google.com/file/d/1l-KY8JtUu1pfQ4Xd3s0JNrkLM69oT_Ud/view?usp=sharing)
 
 ```bash
 python main.py image

@@ -28,19 +28,25 @@ python3
 
 ### Training
 
-Training on group-based images. We use [COCO2017 train set](https://cocodataset.org/#home) with the provided [group split dict.npy](https://drive.google.com/file/d/1l-KY8JtUu1pfQ4Xd3s0JNrkLM69oT_Ud/view?usp=sharing)
+Training on group-based images. We use [COCO2017 train set](https://cocodataset.org/#home) with the provided [group split dict.npy](https://drive.google.com/file/d/1l-KY8JtUu1pfQ4Xd3s0JNrkLM69oT_Ud/view?usp=sharing).
 
 ```bash
 python main.py image
 ```
 
-Training on video
+Training on video. We load the weight pre-trained on the static image dataset, and use DAVIS and FBMS to train our network.
 
 ```bash
-python main.py video
+python main.py video --wo flow
 ```
 
-### Testing
+Training on video (w/ fow). The same as above, we use DAVIS_flow and FBMS_flow to train our network.
+
+```bash
+python main.py video --w flow
+```
+
+### Inference
 
 Evaluation on image [[checkpoint](https://drive.google.com/file/d/1ZFJwxBFTekAAxGuDMoafP4slTS_dBe3O/view?usp=sharing)]
 

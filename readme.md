@@ -13,6 +13,52 @@ Humans tend to mine objects by learning from a group of images or a several fram
 
 <img src="source/fig1.gif" width="50%"/><img src='source/framework.png' width="50%">
 
+## Usage
+
+### Requirement
+
+```python
+torch >=1.7.0
+torchvision>=0.7.0
+python3
+```
+
+### Dataset
+
+```python
+Coco2017
+Davis16
+FBMS
+```
+
+### Training
+
+Training on images
+
+```bash
+python main.py image
+```
+
+Training on video
+
+```bash
+python main.py video
+```
+
+### Testing
+
+Evaluating on image
+
+```python
+python eval.py image
+```
+
+Evaluating on video
+
+```bash
+python eval.py video
+```
+
 ## Result
 
 - **Co-Segmentation (CoS) on [PASCAL-VOC](http://host.robots.ox.ac.uk/pascal/VOC/), [iCoseg](http://chenlab.ece.cornell.edu/projects/touch-coseg/), [Internet](http://people.csail.mit.edu/mrub/ObjectDiscovery/) and [MSRC](https://link.springer.com/chapter/10.1007/11744023_1)  [[Pre-computed Results](https://drive.google.com/drive/folders/1aLNYQDeG6ibbxsfI686TJKRbjj6nDF0U?usp=sharing)]** 
@@ -31,15 +77,9 @@ Humans tend to mine objects by learning from a group of images or a several fram
 
 <img src="source/bear_480p.gif" width="45%"/><img src="source/rabbit_480p.gif" width="45%"/>
 
-
-## Usage
-
---TODO--
-
 ## Demo
 
 https://user-images.githubusercontent.com/50760123/156528285-59b0a056-fb07-4c1e-8e66-cae31dc0e789.mp4
 
 https://user-images.githubusercontent.com/50760123/156924040-c329075f-1d50-41cd-a869-885b2f33d873.mp4
-
 

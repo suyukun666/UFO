@@ -26,14 +26,6 @@ torchvision>=0.7.0
 python3
 ```
 
-### Dataset
-
-```python
-Coco2017
-Davis16
-FBMS
-```
-
 ### Training
 
 Training on images

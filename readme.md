@@ -50,19 +50,19 @@ python main.py video
 
 ### Testing
 
-Evaluating on image [[Pre-trained Weight](https://drive.google.com/file/d/1ZFJwxBFTekAAxGuDMoafP4slTS_dBe3O/view?usp=sharing)]
+Evaluating on image [[checkpoint](https://drive.google.com/file/d/1ZFJwxBFTekAAxGuDMoafP4slTS_dBe3O/view?usp=sharing)]
 
 ```bash
 python eval.py image
 ```
 
-Evaluating on video [[Pre-trained Weight](https://drive.google.com/file/d/1eIAoCy-sV_9ueC9-KmQKDyc8nex2yWxL/view?usp=sharing)]
+Evaluating on video [[checkpoint](https://drive.google.com/file/d/1eIAoCy-sV_9ueC9-KmQKDyc8nex2yWxL/view?usp=sharing)]
 
 ```bash
 python eval.py video --wo flow
 ```
 
-Evaluating on video with optical flow [[Pre-trained Weight](https://drive.google.com/file/d/1NtX86od0jlukYlF2EIKsFYxZdjBW2pL6/view?usp=sharing)]
+Evaluating on video with optical flow [[checkpoint](https://drive.google.com/file/d/1NtX86od0jlukYlF2EIKsFYxZdjBW2pL6/view?usp=sharing)]
 
 ```bash
 python eval.py video --w flow

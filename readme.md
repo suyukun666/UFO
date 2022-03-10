@@ -86,3 +86,9 @@ https://user-images.githubusercontent.com/50760123/156528285-59b0a056-fb07-4c1e-
 
 https://user-images.githubusercontent.com/50760123/156924040-c329075f-1d50-41cd-a869-885b2f33d873.mp4
 
+## Acknowledgement
+
+Our project references the codes in the following repos.
+
+- [SSNM](https://github.com/cj4L/SSNM-Coseg)
+- [VIT](https://github.com/google-research/vision_transformer)

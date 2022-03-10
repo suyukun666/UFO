@@ -60,6 +60,11 @@ Evaluation on video with optical flow [[checkpoint](https://drive.google.com/fil
 python eval.py video --w flow
 ```
 
+## Evaluation
+
+- Pre-Computed Results: Please download the prediction results of our framework form the Results section
+- Evaluation Toolbox: We use the standard evaluation toolbox from [COCA benchmark](http://zhaozhang.net/coca.html).
+
 ## Result
 
 - **Co-Segmentation (CoS) on [PASCAL-VOC](http://host.robots.ox.ac.uk/pascal/VOC/), [iCoseg](http://chenlab.ece.cornell.edu/projects/touch-coseg/), [Internet](http://people.csail.mit.edu/mrub/ObjectDiscovery/) and [MSRC](https://link.springer.com/chapter/10.1007/11744023_1)  [[Pre-computed Results](https://drive.google.com/drive/folders/1aLNYQDeG6ibbxsfI686TJKRbjj6nDF0U?usp=sharing)]** 

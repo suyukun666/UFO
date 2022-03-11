@@ -31,19 +31,19 @@ python3
 Training on group-based images. We use [COCO2017 train set](https://cocodataset.org/#home) with the provided [group split dict.npy](https://drive.google.com/file/d/1l-KY8JtUu1pfQ4Xd3s0JNrkLM69oT_Ud/view?usp=sharing).
 
 ```bash
-python main.py image
+python main.py
 ```
 
 Training on video (w/o flow) . We load the weight pre-trained on the static image dataset, and use [DAVIS and FBMS](https://drive.google.com/file/d/1LwqQi7axAgQhf3O-wHWj_MkYBEXNn8gQ/view?usp=sharing) to train our framework.
 
 ```bash
-python main.py video --wo flow
+python finetune.py --model=models/image_best.pth --use_flow=False
 ```
 
 Training on video (w/ flow). The same as above, then we use [DAVIS_flow and FBMS_flow](https://drive.google.com/file/d/1yS_-gvBH7au-BzsoM0qbwJ6Uz7kU0z85/view?usp=sharing) to train our network.
 
 ```bash
-python main.py video --w flow
+python finetune.py --model=models/image_best.pth --use_flow=True
 ```
 
 ### Inference
@@ -51,19 +51,19 @@ python main.py video --w flow
 Generate the image results [[checkpoint](https://drive.google.com/file/d/1ZFJwxBFTekAAxGuDMoafP4slTS_dBe3O/view?usp=sharing)]
 
 ```bash
-python eval.py image
+python test.py --model=models/image_best.pth --data_path=cosegdatasets/MSRC7/ --output_dir=CoS_results/MSRC7 --task=CoS
 ```
 
 Generate the video results [[checkpoint](https://drive.google.com/file/d/1eIAoCy-sV_9ueC9-KmQKDyc8nex2yWxL/view?usp=sharing)]
 
 ```bash
-python eval.py video --wo flow
+python test.py --model=models/video_best.pth --data_path=VSODdatasets/DAVIS/ --output_dir=VSOD_results/wo_optical_flow/DAVIS --task=VSOD
 ```
 
 Generate the video results with optical flow [[checkpoint](https://drive.google.com/file/d/1NtX86od0jlukYlF2EIKsFYxZdjBW2pL6/view?usp=sharing)]
 
 ```bash
-python eval.py video --w flow
+python test.py --model=models/video_flow_best.pth --data_path=VSODdatasets/DAVIS_flow/ --output_dir=VSOD_results/w_optical_flow/w_optical_flow --use_flow=True --task=VSOD
 ```
 
 ### Evaluation
@@ -91,7 +91,15 @@ python eval.py video --w flow
 
 ## Demo
 
+```bash
+python demo.py --data_path=./demo_mp4/video/kobe.mp4 --output_dir=./demo_mp4/result
+```
+
 https://user-images.githubusercontent.com/50760123/156528285-59b0a056-fb07-4c1e-8e66-cae31dc0e789.mp4
+
+```bash
+bash demo_bullet_chat.sh
+```
 
 https://user-images.githubusercontent.com/50760123/156924040-c329075f-1d50-41cd-a869-885b2f33d873.mp4
 

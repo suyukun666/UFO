@@ -34,13 +34,13 @@ Training on group-based images. We use [COCO2017 train set](https://cocodataset.
 python main.py image
 ```
 
-Training on video (w/o flow) . We load the weight pre-trained on the static image dataset, and use DAVIS and FBMS to train our framework.
+Training on video (w/o flow) . We load the weight pre-trained on the static image dataset, and use [DAVIS and FBMS](https://drive.google.com/file/d/1LwqQi7axAgQhf3O-wHWj_MkYBEXNn8gQ/view?usp=sharing) to train our framework.
 
 ```bash
 python main.py video --wo flow
 ```
 
-Training on video (w/ flow). The same as above, then we use DAVIS_flow and FBMS_flow to train our network.
+Training on video (w/ flow). The same as above, then we use [DAVIS_flow and FBMS_flow](https://drive.google.com/file/d/1yS_-gvBH7au-BzsoM0qbwJ6Uz7kU0z85/view?usp=sharing) to train our network.
 
 ```bash
 python main.py video --w flow

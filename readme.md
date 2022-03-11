@@ -51,7 +51,7 @@ python finetune.py --model=models/image_best.pth --use_flow=True
 Generate the image results [[checkpoint](https://drive.google.com/file/d/1ZFJwxBFTekAAxGuDMoafP4slTS_dBe3O/view?usp=sharing)]
 
 ```bash
-python test.py --model=models/image_best.pth --data_path=cosegdatasets/MSRC7/ --output_dir=CoS_results/MSRC7 --task=CoS
+python test.py --model=models/image_best.pth --data_path=CoSdatasets/MSRC7/ --output_dir=CoS_results/MSRC7 --task=CoS_CoSD
 ```
 
 Generate the video results [[checkpoint](https://drive.google.com/file/d/1eIAoCy-sV_9ueC9-KmQKDyc8nex2yWxL/view?usp=sharing)]

@@ -8,7 +8,7 @@
 
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/a-unified-transformer-framework-for-group/video-salient-object-detection-on-segtrack-v2)](https://paperswithcode.com/sota/video-salient-object-detection-on-segtrack-v2?p=a-unified-transformer-framework-for-group)  [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/a-unified-transformer-framework-for-group/video-salient-object-detection-on-visal)](https://paperswithcode.com/sota/video-salient-object-detection-on-visal?p=a-unified-transformer-framework-for-group)  [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/a-unified-transformer-framework-for-group/video-salient-object-detection-on-fbms-59)](https://paperswithcode.com/sota/video-salient-object-detection-on-fbms-59?p=a-unified-transformer-framework-for-group)  [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/a-unified-transformer-framework-for-group/video-salient-object-detection-on-davis-2016)](https://paperswithcode.com/sota/video-salient-object-detection-on-davis-2016?p=a-unified-transformer-framework-for-group)
 
-**[[arxiv](https://arxiv.org/abs/2203.04708v1)]** 
+**[[arxiv](https://arxiv.org/abs/2203.04708v2)]** 
 
 UFO is a simple and Unified framework for addressing Co-Object Segmentation tasks: Co-Segmentation, Co-Saliency Detection and Video Salient Object Detection. Humans tend to mine objects by learning from a group of images or a several frames of video since we live in a dynamic world. In computer vision area, many researches focus on co-segmentation (CoS), co-saliency detection (CoSD) and video salient object detection (VSOD) to discover the co-occurrent objects. However, previous approaches design different networks on these tasks separately, which lower the upper bound on the ease of use of deep learning frameworks. In this paper, we introduce a unified framework to tackle these issues, term as <b>UFO</b> (<b>U</b>nified <b>F</b>ramework for Co-<b>O</b>bject Segmentation). All tasks share the same framework.        
 
@@ -103,9 +103,27 @@ bash demo_bullet_chat.sh
 
 https://user-images.githubusercontent.com/50760123/156924040-c329075f-1d50-41cd-a869-885b2f33d873.mp4
 
+## Citation
+
+If you find the code useful, please consider citing our paper using the following BibTeX entry.
+
+```latex
+@misc{2203.04708,
+Author = {Yukun Su and Jingliang Deng and Ruizhou Sun and Guosheng Lin and Qingyao Wu},
+Title = {A Unified Transformer Framework for Group-based Segmentation: Co-Segmentation, Co-Saliency Detection and Video Salient Object Detection},
+Year = {2022},
+Eprint = {arXiv:2203.04708},
+}
+
+```
+
+
 ## Acknowledgement
 
 Our project references the codes in the following repos.
 
 - [SSNM](https://github.com/cj4L/SSNM-Coseg)
 - [VIT](https://github.com/google-research/vision_transformer)
+
+
+

@@ -8,6 +8,10 @@
 
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/a-unified-transformer-framework-for-group/video-salient-object-detection-on-segtrack-v2)](https://paperswithcode.com/sota/video-salient-object-detection-on-segtrack-v2?p=a-unified-transformer-framework-for-group)  [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/a-unified-transformer-framework-for-group/video-salient-object-detection-on-visal)](https://paperswithcode.com/sota/video-salient-object-detection-on-visal?p=a-unified-transformer-framework-for-group)  [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/a-unified-transformer-framework-for-group/video-salient-object-detection-on-fbms-59)](https://paperswithcode.com/sota/video-salient-object-detection-on-fbms-59?p=a-unified-transformer-framework-for-group)  [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/a-unified-transformer-framework-for-group/video-salient-object-detection-on-davis-2016)](https://paperswithcode.com/sota/video-salient-object-detection-on-davis-2016?p=a-unified-transformer-framework-for-group)
 
+## Update
+
+**22/07/2022** Add demo to [Huggingface Spaces](https://huggingface.co/spaces) with [Gradio](https://github.com/gradio-app/gradio).
+
 |                    Paper Link                     |                       Huggingface Demo                       |
 | :-----------------------------------------------: | :----------------------------------------------------------: |
 | **[[paper](https://arxiv.org/abs/2203.04708v2)]** | **[![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/djl234/UFO)** |

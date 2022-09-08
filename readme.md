@@ -61,7 +61,7 @@ Eprint = {arXiv:2203.04708},
 
 Our project references the codes in the following repos.
 
-- [SSNM](https://github.com/cj4L/SSNM-Coseg)
+- [FuseFormer](https://github.com/ruiliu-ai/FuseFormer)
 - [VIT](https://github.com/google-research/vision_transformer)
 
 

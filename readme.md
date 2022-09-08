@@ -99,6 +99,10 @@ python test.py --model=models/video_flow_best.pth --data_path=VSODdatasets/DAVIS
 
 - **Video inpainting on [YouTube-VOS test set](https://competitions.codalab.org/competitions/20127)** （Currently not fully trained）
 
+
+https://user-images.githubusercontent.com/32771477/189137946-11549db2-1d03-4228-8e6d-927257d814a0.mp4
+
+
 ## Demo
 
 ```bash

@@ -4,7 +4,7 @@
 
 # Video Inpainting
 
-We extend our <b>UFO</b> (<b>U</b>nified <b>F</b>ramework for Co-<b>O</b>bject Segmentation) framework to more application using the same network architecture like video inpainting.
+We extend our <b>UFO</b> (<b>U</b>nified <b>F</b>ramework for Co-<b>O</b>bject Segmentation) framework to more applications using the same network architecture like video inpainting.
 
 ## Usage
 

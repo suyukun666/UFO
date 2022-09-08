@@ -38,17 +38,7 @@ python test.py
 
 <img src='source/result1.png'>
 
-- **Co-Saliency Detection(CoSD) on [CoCA](http://zhaozhang.net/coca.html)，[CoSOD3k](http://dpfan.net/CoSOD3K/) and [CoSal2015](https://ieeexplore.ieee.org/abstract/document/7298918)  [[Pre-computed Results](https://drive.google.com/drive/folders/1QCr0zCCIsBC7JEHBS6A1O3V2JIpEAHyr?usp=sharing)]**
 
-<img src='source/result2.png'>
-
-- **Video Salient Object Detection (VSOD) on [DAVIS16 val set](https://davischallenge.org/davis2016/code.html)  [[Pre-computed Results](https://drive.google.com/drive/folders/1iv6Rrdn3r2S5g5BSdViXT-vTX1pJUlBq?usp=sharing)]** 
-
-<img src="source/drift-straight.gif" width="45%"/> <img src="source/bmx-trees.gif" width="45%"/>
-
-- **[Optional] Single Object Tracking (SOT) on [GOT-10k val set](http://got-10k.aitestunion.com/downloads)** 
-
-<img src="source/bear_480p.gif" width="45%"/><img src="source/rabbit_480p.gif" width="45%"/>
 
 ## Demo
 
@@ -58,11 +48,7 @@ python demo.py --data_path=./demo_mp4/video/kobe.mp4 --output_dir=./demo_mp4/res
 
 https://user-images.githubusercontent.com/50760123/156528285-59b0a056-fb07-4c1e-8e66-cae31dc0e789.mp4
 
-```bash
-bash demo_bullet_chat.sh
-```
 
-https://user-images.githubusercontent.com/50760123/156924040-c329075f-1d50-41cd-a869-885b2f33d873.mp4
 
 ## Citation
 

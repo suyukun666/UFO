@@ -97,6 +97,8 @@ python test.py --model=models/video_flow_best.pth --data_path=VSODdatasets/DAVIS
 
 <img src="source/bear_480p.gif" width="45%"/><img src="source/rabbit_480p.gif" width="45%"/>
 
+- **Video inpainting on [YouTube-VOS test set](https://competitions.codalab.org/competitions/20127)** 
+
 ## Demo
 
 ```bash

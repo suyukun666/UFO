@@ -18,7 +18,7 @@ python3
 
 ### Training
 
-Training on group-based images. We use [COCO2017 train set](https://cocodataset.org/#home) with the provided [group split dict.npy](https://drive.google.com/file/d/1l-KY8JtUu1pfQ4Xd3s0JNrkLM69oT_Ud/view?usp=sharing).
+Training on [YouTube Video Object Segmentation dataset 2019 version](https://youtube-vos.org/dataset/). Users can also train on their own datasets by following the Youtube dataset format.
 
 ```bash
 python train.py
@@ -26,19 +26,11 @@ python train.py
 
 ### Inference
 
-Generate the image results [[checkpoint](https://drive.google.com/file/d/1ZFJwxBFTekAAxGuDMoafP4slTS_dBe3O/view?usp=sharing)]
+Generate the video inpainting results [[checkpoint](https://drive.google.com/file/d/1ZFJwxBFTekAAxGuDMoafP4slTS_dBe3O/view?usp=sharing)]
 
 ```bash
 python test.py 
 ```
-
-## Result
-
-- **Co-Segmentation (CoS) on [PASCAL-VOC](http://host.robots.ox.ac.uk/pascal/VOC/), [iCoseg](http://chenlab.ece.cornell.edu/projects/touch-coseg/), [Internet](http://people.csail.mit.edu/mrub/ObjectDiscovery/) and [MSRC](https://link.springer.com/chapter/10.1007/11744023_1)  [[Pre-computed Results](https://drive.google.com/drive/folders/1aLNYQDeG6ibbxsfI686TJKRbjj6nDF0U?usp=sharing)]** 
-
-<img src='source/result1.png'>
-
-
 
 ## Demo
 

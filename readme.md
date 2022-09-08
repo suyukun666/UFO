@@ -10,6 +10,8 @@
 
 ## Update
 
+**08/09/2022** Video Inpainting demo coming soon！
+
 **22/07/2022** Add demo to [Huggingface Spaces](https://huggingface.co/spaces) with [Gradio](https://github.com/gradio-app/gradio).
 
 |                    Paper Link                     |                       Huggingface Demo                       |

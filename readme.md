@@ -35,12 +35,10 @@ python test.py
 ## Demo
 
 ```bash
-python demo.py --data_path=./demo_mp4/video/kobe.mp4 --output_dir=./demo_mp4/result
+python demo.py
 ```
 
-
-
-
+<img src='source/inpainting.gif'>
 
 ## Citation
 

@@ -38,7 +38,7 @@ python test.py
 python demo.py --data_path=./demo_mp4/video/kobe.mp4 --output_dir=./demo_mp4/result
 ```
 
-https://user-images.githubusercontent.com/50760123/156528285-59b0a056-fb07-4c1e-8e66-cae31dc0e789.mp4
+
 
 
 

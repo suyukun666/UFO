@@ -10,7 +10,7 @@
 
 ## Update
 
-**08/09/2022** Video Inpainting script and demo coming soon！
+**08/09/2022** Video Inpainting script and modelcoming soon！
 
 **22/07/2022** Add demo to [Huggingface Spaces](https://huggingface.co/spaces) with [Gradio](https://github.com/gradio-app/gradio).
 

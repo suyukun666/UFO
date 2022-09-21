@@ -26,7 +26,7 @@ python train.py
 
 ### Inference
 
-Generate the video inpainting results [[checkpoint](https://drive.google.com/file/d/1ZFJwxBFTekAAxGuDMoafP4slTS_dBe3O/view?usp=sharing)]
+Generate the video inpainting results [[checkpoint](https://drive.google.com/file/d/1gP6fsUCjzc3Q_i3zQroRMmSwYWM7aOLz/view?usp=sharing)]
 
 ```bash
 python test.py 

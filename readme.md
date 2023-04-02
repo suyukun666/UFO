@@ -128,6 +128,14 @@ Year = {2022},
 Eprint = {arXiv:2203.04708},
 }
 
+@article{su2023unified,
+title={A Unified Transformer Framework for Group-based Segmentation: Co-Segmentation, Co-Saliency Detection and Video Salient Object Detection},
+author={Yukun Su and Jingliang Deng and Ruizhou Sun and Guosheng Lin and Qingyao Wu},
+journal={IEEE Transactions on Multimedia},
+year={2023},
+publisher={IEEE}
+}
+
 ```
 
 
